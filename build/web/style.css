@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    font-family: Century Gothic;
+}
+#pagina{
+    background-image: url(Style/w3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    margin: 0px;
+}
+
+#esquerda {
+    background-color: #EEE;
+    width: 35%;
+    height: 100vh;
+}
+
+#login {
+    padding-top: 25px;
+    font-family: Century Gothic;
+    font-size: 41px;
+    position: relative;
+    top: 8%;
+    text-align: center;
+    background: #fff;
+    width: 80%;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px #999;
+    height: 470px
+}
+
+#Logar{
+    width: 230px;
+    height: 40px;
+    font-size: 18px;
+    border-radius: 10px;
+    background: linear-gradient(to left, #666666, #333);
+    color: #FFF;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+#Logar:active{
+    background: linear-gradient(to left, #333, #666666);
+    
+}
+
+#username, #senha{
+    width: 45%;
+    height: 28px;
+    border: none;
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+    outline: none;
+    font-size: 16px;
+}
+
+label{
+    display: block;
+    margin-bottom: 25px;
+}
+
+.registrar{
+    font-size: 0.32em;
+    margin: 90px 0px 0px 0px;
+    color: #FF0000;
+}
+
+#username{
+    background-image: url(Style/usericon.png);
+    background-repeat: no-repeat;
+    background-size: 27px;
+    padding-left: 50px;
+}
+
+#senha{
+    background-image: url(Style/senhaicon.png);
+    background-repeat: no-repeat;
+    background-size: 23px;
+    padding-left: 50px;
+}
